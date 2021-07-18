@@ -1,0 +1,22 @@
+<div class="container">
+<h1>Stimuluspractices#index</h1>
+<p>Find me in app/views/stimuluspractices/index.html.erb</p>
+<div data-controller="hello" data-hello-number-value= 3>
+    <div data-hello-target = "output"></div>
+    <br>
+    <button class="btn btn-warning" data-action="hello#clicked"> Click Me! </button>
+</div>
+<div data-controller="text-input">
+    <input type="text" data-action="text-input#changed" data-text-input-target="input">
+    <h1 data-text-input-target = "output">
+</div>
+<div data-controller="styling" data-styling-primary-class="btn-secondary">
+    <button class="btn" data-styling-target="button" data-action="styling#clicked">Click Me too!</button>
+</div>
+<br>
+<div data-controller="styling" data-styling-primary-class="btn-secondary">
+    <button class="btn" data-styling-target="button" data-action="styling#clicked">Click Me too!</button>
+    <button class="btn" data-action="styling#clicked:once">Click Once</button> 
+</div>
+</div>
+

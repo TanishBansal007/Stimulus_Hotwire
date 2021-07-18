@@ -1,0 +1,2 @@
+module StimuluspracticesHelper
+end
